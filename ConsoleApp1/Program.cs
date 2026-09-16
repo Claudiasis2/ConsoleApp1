@@ -1,8 +1,8 @@
 ﻿using static System.Runtime.InteropServices.JavaScript.JSType;
 class Progas
-{ 
+{
     public static void Main()
-    { 
+    {
         //HelloWorld();
         CompareDates();
     }
@@ -55,7 +55,6 @@ class Progas
                 if (diaNacimientoA == diaNacimientoB)
                 {
                     Console.WriteLine("Tienen la misma edad");
-                    //Console.WriteLine("A es menor que B");
                 }
                 else
                 {
@@ -93,4 +92,5 @@ class Progas
             }
         }
     }
+
 }
